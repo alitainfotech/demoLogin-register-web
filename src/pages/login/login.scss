@@ -1,0 +1,132 @@
+.section-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0;
+    height: 100vh;
+  }
+  .login-wrapper {
+    width: 556px;
+    margin: 0 auto;
+    background: linear-gradient(132deg, #cecece 0%, #ffffff 70.81%);
+    box-shadow: 68.8648px 62.0061px 185.333px rgba(51, 51, 51, 0.296),
+      inset -23.8731px -21.4954px 32.1244px #c2c2c2,
+      inset 23.8731px 21.4954px 32.1244px #ffffff;
+    border-radius: 40px;
+    padding: 50px 60px;
+  }
+  .login-wrapper h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .form-login {
+    margin: 0;
+  }
+  .form-login .form-group {
+    margin-bottom: 20px;
+  }
+  .form-login .form-group label {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    display: block;
+    margin-bottom: 3px;
+  }
+
+  .btn-submit {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .btn-submit button {
+    background: #d3235f;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    min-height: 52px;
+    transition: ease-in-out 0.5s;
+  }
+  .p-register-login {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #313131;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .p-register-login a {
+    color: #1a76d1;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2px;
+  }
+  .btn-submit button:hover {
+    background: #f7538b;
+  }
+
+  .span-eye {
+    position: relative;
+    display: block;
+  }
+  .span-eye i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: #777777;
+  }
+  .span-eye i.with-error {
+    right: 35px;
+  }
+
+  button:focus-visible {
+    outline: 0;
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1440px) {
+    .login-wrapper h4 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .login-wrapper {
+      padding: 30px 40px;
+      max-width: 436px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .login-wrapper h4 {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    .login-wrapper {
+      padding: 30px 30px;
+      max-width: 366px;
+    }
+   
+  }
+
+  
+  @media (max-width: 375px) {
+    .login-wrapper {
+      max-width: 100%;
+    }
+  }
+  

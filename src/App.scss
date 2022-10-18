@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins";
+}
+a:hover {
+  color: #d3235f;
+}
+a {
+  transition: ease-in-out 0.5s;
+  text-decoration: none;
+}
+input:focus-visible {
+  outline: 0;
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~react-toastify/dist/ReactToastify.min.css";
